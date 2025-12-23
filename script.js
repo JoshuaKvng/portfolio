@@ -10,7 +10,7 @@ const btn = document.querySelector("#btn");
 btn.onclick = changeBackgroundColor;*/
 
 
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     // Get the button and the navigation bar
     const navToggle = document.querySelector('.nav-toggle');
     const navBar = document.getElementById('navbar');
@@ -20,10 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Toggle the 'nav-visible' class on the navigation bar
         navBar.classList.toggle('nav-visible');
     });
-});
+});*/
 
 
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     // Get the button and the main content sections
     const changeBtn = document.getElementById('btn');
     const sections = document.querySelectorAll('#welcome-section, #skills, #projects, #contact, footer');
@@ -56,4 +56,5 @@ document.addEventListener('DOMContentLoaded', () => {
         // The body's background can also be changed to the new background color
         document.body.style.backgroundColor = newTheme.background;
     });
+
 });
