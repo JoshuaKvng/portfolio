@@ -89,8 +89,6 @@ main {
 /* General section and grid styling */
 #skills {
     padding: 50px 20px;
-    background-color: #152046;
-    color: #fff;
     text-align: center;
     height: 100vh auto;
     border-radius: 1%;
@@ -173,9 +171,8 @@ main {
 }
 
 #projects {
-    background: #c8cbde;
     font-family: Times New Roman;
-    color: black;
+    color: #1e1e1e;
     padding-top: 10vh;
     padding-bottom: 2rem;
     height: 100vh auto;
@@ -203,8 +200,6 @@ main {
 .project {
     box-shadow: 3px 3px 3px 3px  #96a4d3;
     border-radius: 6%;
-    background-color: #152046;
-    color: #a98f76;
     margin: 40px;
     opacity: 0;
     transform: translateY(50px) scale(0.8);
@@ -625,6 +620,7 @@ footer {
 
 
 }
+
 
 
 
